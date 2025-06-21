@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Local Lingo Survival Kit</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&family=Noto+Sans+Kannada&family=Noto+Sans+Tamil&family=Noto+Sans+Bengali&family=Noto+Sans+Gujarati&family=Noto+Sans+Telugu&family=Noto+Sans+Malayalam&display=swap" rel="stylesheet">
+  <style>
+    .text-hindi { font-family: 'Noto Sans Devanagari', sans-serif; }
+    .text-kannada { font-family: 'Noto Sans Kannada', sans-serif; }
+    .text-tamil { font-family: 'Noto Sans Tamil', sans-serif; }
+    .text-bengali { font-family: 'Noto Sans Bengali', sans-serif; }
+    .text-gujarati { font-family: 'Noto Sans Gujarati', sans-serif; }
+    .text-telugu { font-family: 'Noto Sans Telugu', sans-serif; }
+    .text-malayalam { font-family: 'Noto Sans Malayalam', sans-serif; }
+    .kit-box { @apply bg-white p-6 rounded-lg shadow space-y-4; }
+    .kit-title { @apply text-xl font-bold mb-4 border-b pb-2; }
+    .kit-section p:first-child { @apply font-bold text-gray-800; }
+    .lang-line { @apply text-sm px-2 py-1 rounded bg-gray-100 inline-block text-gray-700 mb-1; }
+    .phrase-block { @apply border-l-4 border-indigo-200 pl-4 mb-4; }
+  </style>
+</head>
+<body class="bg-gray-50">
+  <header>
+    <nav class="flex justify-center gap-4 p-4 bg-indigo-100">
+      <a href="index.html" class="px-4 py-2 rounded hover:bg-indigo-200">Translator</a>
+      <a href="signboards.html" class="px-4 py-2 rounded hover:bg-indigo-200">Metro Signs</a>
+      <a href="slangs.html" class="px-4 py-2 rounded hover:bg-indigo-200">Local Slangs</a>
+      <a href="survival-kit.html" class="px-4 py-2 rounded hover:bg-indigo-200 font-bold">Survival Kit</a>
+      <a href="contribute.html" class="px-4 py-2 rounded font-bold bg-indigo-200">Contribute</a>
+    </nav>
+  </header>
+
+  <main class="container mx-auto p-4">
+    <h1 class="text-3xl font-bold mb-8 text-center">Local Lingo Survival Kit</h1>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- Emergency -->
+      <div class="kit-box">
+        <h2 class="kit-title text-red-600">🚨 Emergency</h2>
+        <div class="phrase-block">
+          <p>Help!</p>
+          <p class="lang-line">Hindi</p>
+          <p class="text-hindi">मदद! (Madad!)</p>
+          <p class="lang-line">Kannada</p>
+          <p class="text-kannada">ಸಹಾಯ! (Sahāya!)</p>
+          <p class="lang-line">Tamil</p>
+          <p class="text-tamil">உதவி! (Udhavi!)</p>
+          <p class="lang-line">Bengali</p>
+          <p class="text-bengali">সাহায্য! (Sāhājya!)</p>
+        </div>
+        <div class="phrase-block">
+          <p>Call the police!</p>
+          <p class="lang-line">Hindi</p>
+          <p class="text-hindi">पुलिस को बुलाओ! (Police ko bulao!)</p>
+          <p class="lang-line">Marathi</p>
+          <p class="text-marathi">पोलीस बोलवा! (Police bolva!)</p>
+          <p class="lang-line">Telugu</p>
+          <p class="text-telugu">పోలీసును పిలవండి! (Polisunu pilavandi!)</p>
+        </div>
+      </div>
+
+      <!-- Transportation -->
+      <div class="kit-box">
+        <h2 class="kit-title text-blue-600">🚉 Transportation</h2>
+        <div class="phrase-block">
+          <p>Where is the metro?</p>
+          <p class="lang-line">Hindi</p>
+          <p class="text-hindi">मेट्रो कहाँ है? (Metro kahaan hai?)</p>
+          <p class="lang-line">Tamil</p>
+          <p class="text-tamil">மெட்ரோ எங்கே? (Meṭrō eṅkē?)</p>
+          <p class="lang-line">Kannada</p>
+          <p class="text-kannada">ಮೆಟ್ರೋ ಎಲ್ಲಿ ಇದೆ? (Metro elli ide?)</p>
+          <p class="lang-line">Gujarati</p>
+          <p class="text-gujarati">મેટ્રો ક્યાં છે? (Metro kya chhe?)</p>
+        </div>
+        <div class="phrase-block">
+          <p>I need a taxi</p>
+          <p class="lang-line">Hindi</p>
+          <p class="text-hindi">मुझे टैक्सी चाहिए (Mujhe taxi chahiye)</p>
+          <p class="lang-line">Marathi</p>
+          <p class="text-marathi">मला टॅक्सी पाहिजे (Mala taxi pahije)</p>
+          <p class="lang-line">Malayalam</p>
+          <p class="text-malayalam">എനിക്ക് ടാക്‌സി വേണം (Enikku taxi venam)</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center p-6 text-gray-600 border-t mt-10">
+    © 2023 Local Lingo – Survival Kit
+  </footer>
+</body>
+</html>

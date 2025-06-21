@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Everyday Slangs & Phrases</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&family=Noto+Sans+Kannada&family=Noto+Sans+Tamil&family=Noto+Sans+Bengali&family=Noto+Sans+Gujarati&family=Noto+Sans+Telugu&family=Noto+Sans+Malayalam&display=swap" rel="stylesheet" />
+  <style>
+    .text-hindi { font-family: 'Noto Sans Devanagari', sans-serif; }
+    .text-kannada { font-family: 'Noto Sans Kannada', sans-serif; }
+    .text-marathi { font-family: 'Noto Sans Devanagari', sans-serif; }
+    .text-tamil { font-family: 'Noto Sans Tamil', sans-serif; }
+    .text-bengali { font-family: 'Noto Sans Bengali', sans-serif; }
+    .text-gujarati { font-family: 'Noto Sans Gujarati', sans-serif; }
+    .text-telugu { font-family: 'Noto Sans Telugu', sans-serif; }
+    .text-malayalam { font-family: 'Noto Sans Malayalam', sans-serif; }
+    .phrase-box {
+      @apply bg-white p-6 rounded-lg shadow;
+    }
+    .phrase-grid {
+      @apply grid md:grid-cols-3 gap-4;
+    }
+    .phrase-title {
+      @apply text-2xl font-bold mb-4;
+    }
+    .phrase-item p:first-child {
+      @apply font-bold text-gray-800;
+    }
+    .phrase-item p:last-child {
+      @apply text-gray-600;
+    }
+  </style>
+</head>
+<body class="bg-gray-50">
+  <header>
+    <nav class="flex justify-center gap-4 p-4 bg-indigo-100">
+      <a href="index.html" class="px-4 py-2 rounded hover:bg-indigo-200">Translator</a>
+      <a href="signboards.html" class="px-4 py-2 rounded hover:bg-indigo-200">Metro Signs</a>
+      <a href="slangs.html" class="px-4 py-2 rounded hover:bg-indigo-200 font-bold">Local Slangs</a>
+      <a href="survival-kit.html" class="px-4 py-2 rounded hover:bg-indigo-200">Survival Kit</a>
+      <a href="contribute.html" class="px-4 py-2 rounded font-bold bg-indigo-200">Contribute</a>
+    </nav>
+  </header>
+
+  <main class="container mx-auto p-4">
+    <h1 class="text-3xl font-bold mb-8 text-center">Everyday Slangs & Useful Phrases</h1>
+
+    <div class="space-y-8">
+    <!-- Hindi -->
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-bold mb-4 text-hindi">हिंदी (Spoken in North India: Delhi, UP, MP, Bihar)</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div><p class="font-bold">Jugaad</p><p>Creative fix/workaround</p></div>
+        <div><p class="font-bold">Chill Maar</p><p>Relax</p></div>
+        <div><p class="font-bold">Namaste</p><p>Hello / Greetings</p></div>
+        <div><p class="font-bold">Dhanyavaad</p><p>Thank you</p></div>
+        <div><p class="font-bold">Yeh kitne ka hai?</p><p>How much is this?</p></div>
+        <div><p class="font-bold">Kis disha mein hai?</p><p>Which direction?</p></div>
+      </div>
+    </div>
+
+    <!-- Kannada -->
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-bold mb-4 text-kannada">ಕನ್ನಡ (Spoken in Karnataka)</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div><p class="font-bold">Maadi</p><p>Do it</p></div>
+        <div><p class="font-bold">Beda</p><p>Don't want</p></div>
+        <div><p class="font-bold">Namaskara</p><p>Hello / Greetings</p></div>
+        <div><p class="font-bold">Dhanyavaadagalu</p><p>Thank you</p></div>
+        <div><p class="font-bold">Idhu estu?</p><p>How much is this?</p></div>
+        <div><p class="font-bold">Yava dikku?</p><p>Which direction?</p></div>
+      </div>
+    </div>
+
+    <!-- Tamil -->
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-bold mb-4 text-tamil">தமிழ் (Spoken in Tamil Nadu)</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div><p class="font-bold">Vanakkam</p><p>Hello / Greetings</p></div>
+        <div><p class="font-bold">Nandri</p><p>Thank you</p></div>
+        <div><p class="font-bold">Idhu evvalavu?</p><p>How much is this?</p></div>
+        <div><p class="font-bold">Enge poganum?</p><p>Which direction?</p></div>
+      </div>
+    </div>
+
+    <!-- Telugu -->
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-bold mb-4 text-telugu">తెలుగు (Spoken in Andhra Pradesh & Telangana)</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div><p class="font-bold">Namaskaram</p><p>Hello / Greetings</p></div>
+        <div><p class="font-bold">Dhanyavaadalu</p><p>Thank you</p></div>
+        <div><p class="font-bold">Idi entha?</p><p>How much is this?</p></div>
+        <div><p class="font-bold">E direction lo?</p><p>Which direction?</p></div>
+      </div>
+    </div>
+
+    <!-- Bengali -->
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-bold mb-4 text-bengali">বাংলা (Spoken in West Bengal)</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div><p class="font-bold">Nomoskar</p><p>Hello / Greetings</p></div>
+        <div><p class="font-bold">Dhonnobad</p><p>Thank you</p></div>
+        <div><p class="font-bold">Eta koto?</p><p>How much is this?</p></div>
+        <div><p class="font-bold">Kon dik?</p><p>Which direction?</p></div>
+      </div>
+    </div>
+
+    <!-- Marathi -->
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-bold mb-4 text-marathi">मराठी (Spoken in Maharashtra)</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div><p class="font-bold">Namaskar</p><p>Hello / Greetings</p></div>
+        <div><p class="font-bold">Dhanyavaad</p><p>Thank you</p></div>
+        <div><p class="font-bold">He kiti?</p><p>How much is this?</p></div>
+        <div><p class="font-bold">Kuthlya direction madhe?</p><p>Which direction?</p></div>
+      </div>
+    </div>
+
+    <!-- Malayalam -->
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-bold mb-4 text-malayalam">മലയാളം (Spoken in Kerala)</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div><p class="font-bold">Namaskaram</p><p>Hello / Greetings</p></div>
+        <div><p class="font-bold">Nanni</p><p>Thank you</p></div>
+        <div><p class="font-bold">Ithentha vila?</p><p>How much is this?</p></div>
+        <div><p class="font-bold">Ethekke povaam?</p><p>Which direction?</p></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="space-y-8">
+      <!-- Languages populated dynamically by previous update -->
+    </div>
+  </main>
+
+  <footer class="text-center p-6 text-gray-600 border-t mt-10">
+    © 2023 Local Lingo – Daily Phrases Guide
+  </footer>
+</body>
+</html>

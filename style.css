@@ -1,0 +1,108 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Input Sections */
+.input-section {
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Feature Cards */
+.feature-card {
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+    border: 1px solid #e9ecef;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-color: #d0d7de;
+}
+
+/* Drop Area */
+#dropArea {
+    transition: all 0.3s ease;
+}
+
+#dropArea:hover {
+    border-color: #818cf8;
+    background-color: #f0f4ff;
+}
+
+/* Buttons */
+button {
+    transition: all 0.2s ease;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Result Section */
+.result-section {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .result-section {
+        min-height: auto;
+        margin-top: 2rem;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c7d2fe;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a5b4fc;
+}
+
+/* Language-specific text styling */
+.text-hindi { font-family: 'Noto Sans Devanagari', sans-serif; }
+.text-kannada { font-family: 'Noto Sans Kannada', sans-serif; }
+.text-tamil { font-family: 'Noto Sans Tamil', sans-serif; }
+
+/* Card animations */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.text-tamil { font-family: 'Noto Sans Tamil', sans-serif; }
+.text-bengali { font-family: 'Noto Sans Bengali', sans-serif; }
+.text-gujarati { font-family: 'Noto Sans Gujarati', sans-serif; }
+.text-marathi { font-family: 'Noto Sans Devanagari', sans-serif; } /* Shares Hindi font */

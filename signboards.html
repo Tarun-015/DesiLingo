@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metro & Bus Signboards Decoder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&family=Noto+Sans+Kannada&family=Noto+Sans+Tamil&family=Noto+Sans+Bengali&family=Noto+Sans+Gujarati&family=Noto+Sans+Telugu&family=Noto+Sans+Malayalam&display=swap" rel="stylesheet">
+    <style>
+        .text-hindi { font-family: 'Noto Sans Devanagari', sans-serif; }
+        .text-kannada { font-family: 'Noto Sans Kannada', sans-serif; }
+        .text-marathi { font-family: 'Noto Sans Devanagari', sans-serif; }
+        .text-tamil { font-family: 'Noto Sans Tamil', sans-serif; }
+        .text-bengali { font-family: 'Noto Sans Bengali', sans-serif; }
+        .text-gujarati { font-family: 'Noto Sans Gujarati', sans-serif; }
+        .text-telugu { font-family: 'Noto Sans Telugu', sans-serif; }
+        .text-malayalam { font-family: 'Noto Sans Malayalam', sans-serif; }
+        img { background: #f1f5f9; padding: 4px; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <header>
+        <nav class="flex justify-center gap-4 p-4 bg-indigo-100">
+            <a href="index.html" class="px-4 py-2 rounded hover:bg-indigo-200">Translator</a>
+            <a href="signboards.html" class="px-4 py-2 rounded hover:bg-indigo-200 font-bold">Metro & Bus Signs</a>
+            <a href="slangs.html" class="px-4 py-2 rounded hover:bg-indigo-200">Local Slangs</a>
+            <a href="survival-kit.html" class="px-4 py-2 rounded hover:bg-indigo-200">Survival Kit</a>
+            <a href="contribute.html" class="px-4 py-2 rounded font-bold bg-indigo-200">Contribute</a>
+        </nav>
+    </header>
+
+    <main class="container mx-auto p-4">
+        <h1 class="text-3xl font-bold mb-10 text-center">Metro & Bus Signboards Decoder</h1>
+
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Delhi -->
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-xl font-bold mb-4 flex items-center"><span class="w-8 h-8 mr-2 bg-indigo-100 flex items-center justify-center">D</span>Delhi</h2>
+                <div class="space-y-3">
+                    <div><p class="font-bold text-hindi">निकास</p><p>Exit</p></div>
+                    <div><p class="font-bold text-hindi">प्रवेश द्वार</p><p>Entrance</p></div>
+                    <div><p class="font-bold text-hindi">टिकट काउंटर</p><p>Ticket Counter</p></div>
+                    <div><p class="font-bold text-hindi">बस स्टैंड</p><p>Bus Stand</p></div>
+                    <div><p class="font-bold text-hindi">रेलवे स्टेशन</p><p>Railway Station</p></div>
+                    <div><p class="font-bold text-hindi">आपातकालीन निकास</p><p>Emergency Exit</p></div>
+                </div>
+            </div>
+
+            <!-- Bangalore -->
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-xl font-bold mb-4 flex items-center"><span class="w-8 h-8 mr-2 bg-indigo-100 flex items-center justify-center">B</span>Bangalore</h2>
+                <div class="space-y-3">
+                    <div><p class="font-bold text-kannada">ನಿರ್ಗಮನ</p><p>Exit</p></div>
+                    <div><p class="font-bold text-kannada">ಪ್ರವೇಶ</p><p>Entrance</p></div>
+                    <div><p class="font-bold text-kannada">ಟಿಕೆಟ್ ಕೌಂಟರ್</p><p>Ticket Counter</p></div>
+                    <div><p class="font-bold text-kannada">ಬಸ್ ನಿಲ್ದಾಣ</p><p>Bus Stop</p></div>
+                    <div><p class="font-bold text-kannada">ಮೆಟ್ರೋ ನಿಲ್ದಾಣ</p><p>Metro Station</p></div>
+                    <div><p class="font-bold text-kannada">ತುರ್ತು ನಿರ್ಗಮನ</p><p>Emergency Exit</p></div>
+                </div>
+            </div>
+
+            <!-- Mumbai -->
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-xl font-bold mb-4 flex items-center"><span class="w-8 h-8 mr-2 bg-indigo-100 flex items-center justify-center">M</span>Mumbai</h2>
+                <div class="space-y-3">
+                    <div><p class="font-bold text-marathi">बाहेर पडणे</p><p>Exit</p></div>
+                    <div><p class="font-bold text-marathi">प्रवेश द्वार</p><p>Entrance</p></div>
+                    <div><p class="font-bold text-marathi">तिकीट केंद्र</p><p>Ticket Counter</p></div>
+                    <div><p class="font-bold text-marathi">बस स्थानक</p><p>Bus Stand</p></div>
+                    <div><p class="font-bold text-marathi">रेल्वे स्थानक</p><p>Railway Station</p></div>
+                    <div><p class="font-bold text-marathi">आपत्कालीन मार्ग</p><p>Emergency Route</p></div>
+                </div>
+            </div>
+
+            <!-- Chennai -->
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-xl font-bold mb-4 flex items-center"><span class="w-8 h-8 mr-2 bg-indigo-100 flex items-center justify-center">C</span>Chennai</h2>
+                <div class="space-y-3">
+                    <div><p class="font-bold text-tamil">வெளியேறு</p><p>Exit</p></div>
+                    <div><p class="font-bold text-tamil">நுழைவு</p><p>Entrance</p></div>
+                    <div><p class="font-bold text-tamil">டிக்கட் கவுண்டர்</p><p>Ticket Counter</p></div>
+                    <div><p class="font-bold text-tamil">பஸ் நிறுத்தம்</p><p>Bus Stop</p></div>
+                    <div><p class="font-bold text-tamil">இரயில் நிலையம்</p><p>Railway Station</p></div>
+                    <div><p class="font-bold text-tamil">அவசர வெளியேறு</p><p>Emergency Exit</p></div>
+                </div>
+            </div>
+
+            <!-- Hyderabad -->
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-xl font-bold mb-4 flex items-center"><span class="w-8 h-8 mr-2 bg-indigo-100 flex items-center justify-center">H</span>Hyderabad</h2>
+                <div class="space-y-3">
+                    <div><p class="font-bold text-telugu">నిష్క్రమణ</p><p>Exit</p></div>
+                    <div><p class="font-bold text-telugu">ప్రవేశ ద్వారం</p><p>Entrance</p></div>
+                    <div><p class="font-bold text-telugu">టికెట్ కౌంటర్</p><p>Ticket Counter</p></div>
+                    <div><p class="font-bold text-telugu">బస్ స్టాప్</p><p>Bus Stop</p></div>
+                    <div><p class="font-bold text-telugu">రైల్వే స్టేషన్</p><p>Railway Station</p></div>
+                    <div><p class="font-bold text-telugu">తత్కాల బయటకు వెళ్లండి</p><p>Emergency Exit</p></div>
+                </div>
+            </div>
+
+            <!-- Kochi -->
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-xl font-bold mb-4 flex items-center"><span class="w-8 h-8 mr-2 bg-indigo-100 flex items-center justify-center">K</span>Kochi</h2>
+                <div class="space-y-3">
+                    <div><p class="font-bold text-malayalam">പുറത്ത് പോകുക</p><p>Exit</p></div>
+                    <div><p class="font-bold text-malayalam">പ്രവേശനം</p><p>Entrance</p></div>
+                    <div><p class="font-bold text-malayalam">ടിക്കറ്റ് കൗണ്ടർ</p><p>Ticket Counter</p></div>
+                    <div><p class="font-bold text-malayalam">ബസ് സ്റ്റോപ്പ്</p><p>Bus Stop</p></div>
+                    <div><p class="font-bold text-malayalam">റെയിൽവേ സ്റ്റേഷൻ</p><p>Railway Station</p></div>
+                </div>
+            </div>
+
+             <!-- Kolkata -->
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-xl font-bold mb-4 flex items-center"><span class="w-8 h-8 mr-2 bg-indigo-100 flex items-center justify-center">K</span>Kolkata</h2>
+                <div class="space-y-3">
+                    <div><p class="font-bold text-bengali">প্রস্থান</p><p>Exit</p></div>
+                    <div><p class="font-bold text-bengali">প্রবেশ</p><p>Entrance</p></div>
+                    <div><p class="font-bold text-bengali">টিকিট কাউন্টার</p><p>Ticket Counter</p></div>
+                    <div><p class="font-bold text-bengali">বাস স্টপ</p><p>Bus Stop</p></div>
+                    <div><p class="font-bold text-bengali">রেলওয়ে স্টেশন</p><p>Railway Station</p></div>
+                    <div><p class="font-bold text-bengali">জরুরী প্রস্থান</p><p>Emergency Exit</p></div>
+                </div>
+            </div>
+
+            <!-- Ahmedabad -->
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-xl font-bold mb-4 flex items-center"><span class="w-8 h-8 mr-2 bg-indigo-100 flex items-center justify-center">A</span>Ahmedabad</h2>
+                <div class="space-y-3">
+                    <div><p class="font-bold text-gujarati">બહાર નીકળો</p><p>Exit</p></div>
+                    <div><p class="font-bold text-gujarati">પ્રવેશદ્વાર</p><p>Entrance</p></div>
+                    <div><p class="font-bold text-gujarati">ટિકિટ કાઉન્ટર</p><p>Ticket Counter</p></div>
+                    <div><p class="font-bold text-gujarati">બસ સ્ટેન્ડ</p><p>Bus Stand</p></div>
+                    <div><p class="font-bold text-gujarati">રેલવે સ્ટેશન</p><p>Railway Station</p></div>
+                    <div><p class="font-bold text-gujarati">એમરજન્સી નિષ્કાસન</p><p>Emergency Exit</p></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <footer class="text-center p-4 mt-10 text-gray-600 border-t">
+        © 2023 Local Lingo - Metro & Bus Signboards Guide
+    </footer>
+</body>
+</html>
