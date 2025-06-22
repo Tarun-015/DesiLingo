@@ -40,11 +40,11 @@ DesiLingo bridges the gap using AI. Users can point their phone at a signboard o
 
 ## 📽️ UI pic
 
-🎥 
+🎥 ![Screenshot 2025-06-22 193311](https://github.com/user-attachments/assets/30d863f1-725d-47ee-955a-246814134b1e)
+
 
 ## 🚀 How to Run
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/yourusername/desilingo.git
-cd desilingo
+https://github.com/Tarun-015/DesiLingo.git
